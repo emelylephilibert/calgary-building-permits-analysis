@@ -14,7 +14,7 @@ What do half a million building permits tell us about speed, cost and growth in 
 
 ## Reproducing the results
 
-Python with pandas, numpy, matplotlib, requests and pyarrow. Run the notebook from the root of the repository: it uses the snapshot in `data/raw` and downloads the table from the City portal only if that file is missing.
+Python with pandas, requests and pyarrow. Run the notebook from the root of the repository: it uses the snapshot in `data/raw` and downloads the table from the City portal only if that file is missing.
 
 ## Source
 
