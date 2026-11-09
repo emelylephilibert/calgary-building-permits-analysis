@@ -15,7 +15,7 @@ What do half a million building permits tell us about speed, cost and growth in 
 ## Reproducing the results
 
 - **Notebook 1:** Python with pandas, requests and pyarrow. Run the notebook from the root of the repository: it uses the snapshot in `data/raw` and downloads the table from the City portal only if that file is missing.
-- **Notebook 2:** runs in Google Colab or any Jupyter environment with Python 3. The libraries are pandas, numpy, pyarrow, matplotlib, scipy, statsmodels, lifelines, contextily and requests, and the setup cell installs the ones that Colab does not include. It needs internet access to read the processed dataset from this repository, to download the Consumer Price Index table of Statistics Canada and to load the map tiles. The quantile regressions of section 2.8 are the slowest step and can take a few minutes.
+- **Notebook 2:** runs in Google Colab or any Jupyter environment with Python 3. The libraries are pandas, numpy, pyarrow, matplotlib, statsmodels, contextily and requests, and the setup cell installs the ones that Colab does not include. It needs internet access to read the processed dataset from this repository, to download the Consumer Price Index table of Statistics Canada and to load the map tiles. The quantile regressions of section 2.8 are the slowest step and can take a few minutes.
 
 ## Sources
 
